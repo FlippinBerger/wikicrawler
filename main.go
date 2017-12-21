@@ -19,6 +19,8 @@ func main() {
 
 	fmt.Println("The current search terms is", *searchTerm)
 
+	crawl("http://www.google.com")
+
 	//now that we have our search term, we need to sanitize it
 
 	//then we need to seed a crawler with the wiki page url to start with
